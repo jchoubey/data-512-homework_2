@@ -12,3 +12,23 @@ It is then needed to perform an analysis of how the coverage of politicians on W
 ## Data Source
 The data sources and descriptions, along with their respective nuances have been captured here -> https://github.com/jchoubey/data-512-homework_2/tree/main/data
 
+## Project Structure
+
+``` 
+data-512-homework_1
+├── data
+│   ├── dinosaur.csv
+│   ├── dino_monthly_desktop_201507-202209.json
+│   ├── dino_monthly_mobile_201507-202209.json
+│   └── dino_monthly_cumulative_201507-202209.json
+│   └── all_access_data.json
+├── output
+│   ├── maximum_minimum_average.png
+│   ├── top_ten_peak_page_views.png
+│   └── fewest_month_views.png
+├── code
+│   ├── wikipedia_article_traffic_analysis.ipnyb
+├── LICENSE
+└── README.md
+```
+
