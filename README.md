@@ -17,17 +17,13 @@ The data sources and descriptions, along with their respective nuances have been
 ``` 
 data-512-homework_1
 ├── data
-│   ├── dinosaur.csv
-│   ├── dino_monthly_desktop_201507-202209.json
-│   ├── dino_monthly_mobile_201507-202209.json
-│   └── dino_monthly_cumulative_201507-202209.json
-│   └── all_access_data.json
+│   ├── politicians_by_country_sept2022.csv
+│   ├── population_by_country_2022.csv
 ├── output
-│   ├── maximum_minimum_average.png
-│   ├── top_ten_peak_page_views.png
-│   └── fewest_month_views.png
+│   ├── wp_countries-no_match.txt
+│   ├── wp_politicians_by_country.csv
 ├── code
-│   ├── wikipedia_article_traffic_analysis.ipnyb
+│   ├── considering_bias_in_data_source_code.ipynb
 ├── LICENSE
 └── README.md
 ```
