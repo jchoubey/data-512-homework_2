@@ -3,7 +3,7 @@
 2. wp_politicians_by_country.csv is the final consolidated dataset utilized for analysis. 
 
     | Columns         | Source                                                            |
-    |-----------------|-------------------------------------------------------------------|
+    | --------------- | ----------------------------------------------------------------- |
     | country         | join criteria between politician and population dataset           |
     | region          | population data                                                   |
     | population      | population data                                                   |
