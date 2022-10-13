@@ -24,3 +24,9 @@ kiribati
 new caledonia
 new zealand
 korean
+liechtenstein
+monaco
+nauru
+palau
+san marino
+tuvalu
