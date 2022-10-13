@@ -1,1 +1,0 @@
-File: wp_countries-no_match.txt contains a list of 31 unmatched countries between politician and population datasets. It must be noted that 6 of these countries have population value 0 in the population dataset and therefore dropped from the population dataset resulting in their inclusion in this list.
