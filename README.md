@@ -10,5 +10,5 @@ It is then needed to perform an analysis of how the coverage of politicians on W
 3.	A ranking of geographic regions by articles-per-person and proportion of high quality articles.
 
 ## Data Source
-Link: https://github.com/jchoubey/data-512-homework_2/tree/main/data
+The data sources and descriptions, along with their respective nuances have been captured here -> https://github.com/jchoubey/data-512-homework_2/tree/main/data
 
