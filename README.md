@@ -12,7 +12,7 @@ It is then needed to perform an analysis of how the coverage of politicians on W
 ## Data Source
 
 ### Raw Data: 
-https://github.com/jchoubey/data-512-homework_2/tree/main/output
+https://github.com/jchoubey/data-512-homework_2/tree/main/data
 
 1. politicians_by_country_sept2022.csv
     List of Wikipedia articles of politicians
