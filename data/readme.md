@@ -20,6 +20,8 @@
     | Population (millions) | population of countries & cumulative population of regions in millions |
 
 
+
+
 **Some Considerations**
 
 It is needed to be a little careful with the data. Crawling Wikipedia categories to identify relevant page subsets can result in misleading and/or duplicate category labels. Naturally, the data crawl attempted to resolve these, but not all may have been caught. Handling data inconsistencies have been documented in the source code. https://github.com/jchoubey/data-512-homework_2/tree/main/code
