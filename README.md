@@ -88,7 +88,16 @@ The process of the assignment has been documented in a step-by-step format withi
     - To achieve this, we have split the population data into two dataframes: country level and region level. Country level data contains all the countries, along with their lowest hierarchical region, and population. Region level data contains the 18 regions and their respective cumulative population.
 
 4. Getting Article Quality Predictions
-
+    - Next, we need to get the predicted quality scores for each article in the Wikipedia dataset. We're using a machine learning system called [ORES](https://www.mediawiki.org/wiki/ORES). ORES is a machine learning tool that can provide estimates of Wikipedia article quality. The article quality estimates are, from best to worst:
+        - FA - Featured article
+        - GA - Good article
+        - B - B-class article
+        - C - C-class article
+        - Start - Start-class article
+        - Stub - Stub-class article
+    - ORES requires a specific revision ID of a specific article to be able to make a label prediction. We use the [API:Info](https://www.mediawiki.org/wiki/API:Info) request to get the most current revision ID of the article page (lastrevid).
+    - **Note:** There are 7 articles for who the revision_id was not obtained. These records were dropped from the politician dataframe.
+    - Putting this together, to get a Wikipedia page quality prediction from ORES for each politician’s article page you will need to read each line of politicians_by_country.SEPT.2022.csv, make a page info request to get the current page revision, and c) make an ORES request using the page title and current revision id.
 
 5. Preparing Master Dataset
 
