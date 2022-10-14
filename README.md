@@ -100,7 +100,9 @@ The process of the assignment has been documented in a step-by-step format withi
     - Putting this together, to get a Wikipedia page quality prediction from ORES for each politician’s article page you will need to read each line of politicians_by_country.SEPT.2022.csv, make a page info request to get the current page revision, and c) make an ORES request using the page title and current revision id.
 
 5. Preparing Master Dataset
-
+    - Both the processed politician dataset and population dataset (country only: obtained after basic data processing) were merged (inner join) on COUNTRY column to prepare a final master dataset.
+    - A list of 32 countries found no match between the two files. This list was extracted and stored in wp_countries-no_match.txt
+    - The remaining data was stored in wp_politicians_by_country.csv 
 
 6. Analysis
 
