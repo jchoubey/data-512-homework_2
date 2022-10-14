@@ -78,7 +78,7 @@ The process of the assignment has been documented in a step-by-step format withi
 1. Data Acquisition: We begin with loading the data from the two csv files in pandas dataframe. We will be working with pandas through out this project.
 
 2. Handling Data Inconsistencies: We deal with inconsistencies such as missing data and duplicate entries in both the dataframes.
-        - For politician dataset, at article-country level (note that article is politician name), there are 2 articles that are duplicated. We removed duplicates for these two articles.
+- For politician dataset, at article-country level (note that article is politician name), there are 2 articles that are duplicated. We removed duplicates for these two articles.
         - There are 48 articles that have duplicate entries, meaning each politician is associated with more that 1 country. Going through a few articles, it is not apparant if this is a defect or a true representation. We will keep these entries as they are in absence of confirmation.
         - In population dataset, we have 6 countries that have population value recorded as 0. We have listed these countries in the source code and have removed them from the dataset.
 
