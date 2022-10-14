@@ -53,8 +53,8 @@ https://github.com/jchoubey/data-512-homework_2/tree/main/output
     | region          | population data                                                   |
     | population      | population data                                                   |
     | article_title   | politician data                                                   |
-    | revision_id     | requested from [Action API] (https://www.mediawiki.org/wiki/API:Info) |
-    | article_quality | requested from [ORES API] (https://www.mediawiki.org/wiki/ORES)       |
+    | revision_id     | requested from [Action API](https://www.mediawiki.org/wiki/API:Info) |
+    | article_quality | requested from [ORES API](https://www.mediawiki.org/wiki/ORES)       |
 
 
 ## Project Structure
