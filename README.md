@@ -104,11 +104,17 @@ The process of the assignment has been documented in a step-by-step format withi
     - A list of 32 countries found no match between the two files. This list was extracted and stored in wp_countries-no_match.txt
     - The remaining data was stored in wp_politicians_by_country.csv 
 
-6. Analysis
+6. Analysis: 
+    - The analysis consists of calculating total-articles-per-population (a ratio representing the number of articles per person)  and high-quality-articles-per-population (a ratio representing the number of high quality articles per person) on a country-by-country and regional basis. 
+    - All of these values are to be “per capita”. Since the population file provides population in millions, we have converted it back to standard.
 
-
-7. Results
-
+7. Results: The following tables data tables were obtained from the analysis (displayed in source code notebook):
+    - Top 10 countries by coverage: The 10 countries with the highest total articles per capita (in descending order) .
+    - Bottom 10 countries by coverage: The 10 countries with the lowest total articles per capita (in ascending order) .
+    - Top 10 countries by high quality: The 10 countries with the highest high quality articles per capita (in descending order) .
+    - Bottom 10 countries by high quality: The 10 countries with the lowest high quality articles per capita (in ascending order).
+    - Geographic regions by total coverage: A rank ordered list of geographic regions (in descending order) by total articles per capita.
+    - Geographic regions by high quality coverage: Rank ordered list of geographic regions (in descending order) by high quality articles per capita.
 
 
 ## Research Reflections & Implications
