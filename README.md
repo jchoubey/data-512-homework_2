@@ -132,4 +132,9 @@ The process of the assignment has been documented in a step-by-step format withi
     Moreover, during analysis, we see that the bottom 10 country list by both total number of articles and number of high quality articles comprise of all non-english speaking countries. While this is reflective of language bias, we find that the top 10 country list comprises of only a few english speakers. Top 10 also generally consists of countries with really low population, this indicates that there is a per capita bias.
     
     
-3. 
+3. What might your results suggest about (English) Wikipedia as a data source?
+
+    The results suggest that non-english speaking countries have some of the worst rated articles on english wikipedia. This is the case even for two of the worlds most populated countries - India & China (with different political governance too!). This is really surprising. Is the political journalism so trodden in the worlds largest countries? However, we soon realize that these countries being non-english, a majority of journalism here happens in other languages and on other platforms. This leads us to understand that wikipedia is not a very accurate data source to capture the political scenario unequivocally across the world. We are capturing only a section of the population in these countries and thus, only analyzing this selective chunks opinions.
+    
+    Moreover, some of the large, english speaking countries such as USA, Canada, UK, AUS, and NZ were not captured in the politician dataset. This is equally surprising and raises concern over the data collection methodology. 
+    
