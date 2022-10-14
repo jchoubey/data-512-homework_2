@@ -78,10 +78,10 @@ data-512-homework_2
 The process of the assignment has been documented in a step-by-step format within the source code. Further details are explained below.
 
 ### 1. Data Acquisition
-    We begin with loading the data from the two csv files in pandas dataframe. We will be working with pandas throught this project.
+We begin with loading the data from the two csv files in pandas dataframe. We will be working with pandas through out this project.
 
 ### 2. Handling Data Inconsistencies
-    As the data is not devoid of fallacies, we deal with certain inconsistencies such as missing data and duplicate entries in both the dataframes.
+The data is not devoid of fallacies. We deal with inconsistencies such as missing data and duplicate entries in both the dataframes.
 
 ### 3. Basic Data Processing
     
