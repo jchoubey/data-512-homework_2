@@ -75,14 +75,12 @@ data-512-homework_2
 
 The process of the assignment has been documented in a step-by-step format within the [source code](https://github.com/jchoubey/data-512-homework_2/tree/main/code). Further details are explained below.
 
-1. Data Acquisition
-    We begin with loading the data from the two csv files in pandas dataframe. We will be working with pandas through out this project.
+1. Data Acquisition: We begin with loading the data from the two csv files in pandas dataframe. We will be working with pandas through out this project.
 
-2. Handling Data Inconsistencies
-    The data is not devoid of fallacies. We deal with inconsistencies such as missing data and duplicate entries in both the dataframes.
+2. Handling Data Inconsistencies: We deal with inconsistencies such as missing data and duplicate entries in both the dataframes.
 
-3. Basic Data Processing
-    
+3. Basic Data Processing: There were a number of steps involved with preparing the data in desired format.
+        a. The population_by_country_2022.csv contains some rows that provide cumulative regional population counts. These rows are distinguished by having ALL CAPS values in the 'geography' field (e.g. AFRICA, OCEANIA). These rows won't match the country values in politicians_by_country.SEPT.2022.csv, but we still need to retain some of them so that you can report coverage and quality by region.     
 
 4. Getting Article Quality Predictions
 
