@@ -118,3 +118,18 @@ The process of the assignment has been documented in a step-by-step format withi
 
 
 ## Research Reflections & Implications
+
+1. What biases did you expect to find in the data (before you started working with it), and why?
+    
+    Considering the data was curated from english wikipedia, I would expect more number of articles to be from english-speaking countries/regions and less so from non-english speaking ones. I also expected more articles from countries with greater access to internet (i.e. developed nations). Moreover, coupled with the above bias, I expected the number of articles to even depend on population. Thus, english speaking, developed, and largely populated countries are expected to have greater number of articles published on wikipedia than otherwise. This would also mean that this dataset would be unable to present a correct picture of the non-english speaking, under-developed or developing, and less populated countries.
+    
+2. What (potential) sources of bias did you discover in the course of your data processing and analysis?
+
+    During data-processing, I encountered a 6 countries that had 0 population values in the population dataset. They are smaller countries for who capturing correct information has been a challenge. Due to this, these countries had to be dropped altogether from the dataset and thus, they could not participate in the analysis. Our analysis lost out on these countries as a result of inefficient data collection. Moreover, there were roughly 32 countries that found no match between the population and politician datasets resulting in their exclusion from the analysis. These scenarios are again accredited to the bias in the data by relying on english wikipedia for representing the world accurately. 
+    
+    However, a surprising find was that there were certain large, english speaking countries as well, such as USA, Canada, UK, AUS, and NZ that were not present in the politician dataset. Articles for these countries could not fetched and hence, not included in the analysis. This indicates that the bias in the data is not completely due to language or population. Perhaps the data collection was specifically targetted towards more eastern or southern countries? This can only be speculated.
+    
+    Moreover, during analysis, we see that the bottom 10 country list by both total number of articles and number of high quality articles comprise of all non-english speaking countries. While this is reflective of language bias, we find that the top 10 country list comprises of only a few english speakers. Top 10 also generally consists of countries with really low population, this indicates that there is a per capita bias.
+    
+    
+3. 
