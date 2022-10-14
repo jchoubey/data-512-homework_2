@@ -11,8 +11,7 @@ It is then needed to perform an analysis of how the coverage of politicians on W
 
 ## Data Source
 
-### Raw Data: 
-https://github.com/jchoubey/data-512-homework_2/tree/main/data
+### [Raw Data](https://github.com/jchoubey/data-512-homework_2/tree/main/data)
 
 1. politicians_by_country_sept2022.csv
     List of Wikipedia articles of politicians
@@ -26,7 +25,7 @@ https://github.com/jchoubey/data-512-homework_2/tree/main/data
 
 
 2. population_by_country_2022.csv
-    The population data is drawn from the world population data sheet published by the Population Reference Bureau. https://www.prb.org/international/indicator/population/table
+    The population data is drawn from the world population data sheet published by the [Population Reference Bureau](https://www.prb.org/international/indicator/population/table)
     
     | Columns               | Description                                                            |
     | --------------------- | ---------------------------------------------------------------------- |
@@ -36,12 +35,11 @@ https://github.com/jchoubey/data-512-homework_2/tree/main/data
 
 ### Some Considerations:
 
-It is needed to be a little careful with the data. Crawling Wikipedia categories to identify relevant page subsets can result in misleading and/or duplicate category labels. Naturally, the data crawl attempted to resolve these, but not all may have been caught. Handling data inconsistencies have been documented in the source code. https://github.com/jchoubey/data-512-homework_2/tree/main/code
+It is needed to be a little careful with the data. Crawling Wikipedia categories to identify relevant page subsets can result in misleading and/or duplicate category labels. Naturally, the data crawl attempted to resolve these, but not all may have been caught. Handling data inconsistencies have been documented in the [source code](https://github.com/jchoubey/data-512-homework_2/tree/main/code)
 The population_by_country_2022.csv contains some rows that provide cumulative regional population counts. These rows are distinguished by having ALL CAPS values in the 'geography' field (e.g. AFRICA, OCEANIA). These rows won't match the country values in politicians_by_country.SEPT.2022.csv, but it is still needed to retain some of them so that one can report coverage and quality by region.
 
 
-### Output Data:  
-https://github.com/jchoubey/data-512-homework_2/tree/main/output
+### [Output Data](https://github.com/jchoubey/data-512-homework_2/tree/main/output)
 
 1. wp_countries-no_match.txt contains a list of 31 unmatched countries between politician and population datasets. It must be noted that 6 of these countries have population value 0 in the population dataset and therefore were dropped from the population dataset resulting in their inclusion in this list.
 
