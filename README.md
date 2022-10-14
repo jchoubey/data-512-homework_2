@@ -83,7 +83,9 @@ The process of the assignment has been documented in a step-by-step format withi
 - In population dataset, we have 6 countries that have population value recorded as 0. We have listed these countries in the source code and have removed them from the dataset.
 
 3. Basic Data Processing: There were a number of steps involved with preparing the data in desired format.
-        a. The population_by_country_2022.csv contains some rows that provide cumulative regional population counts. These rows are distinguished by having ALL CAPS values in the 'geography' field (e.g. AFRICA, OCEANIA). These rows won't match the country values in politicians_by_country.SEPT.2022.csv, but we still need to retain some of them so that you can report coverage and quality by region. 
+- The population_by_country_2022.csv contains some rows that provide cumulative regional population counts. These rows are distinguished by having ALL CAPS values in the 'geography' field (e.g. AFRICA, OCEANIA). These rows won't match the country values in politicians_by_country.SEPT.2022.csv, but we still need to retain some of them so that you can report coverage and quality by region.
+- In this analysis a country can only exist in one region. The population_by_country_2022.csv actually represents regions in a hierarchical order. For the analysis we put a country in the closest (lowest in the hierarchy) region.
+- To achieve this, we have split the population data into two dataframes: country level and region level. Country level data contains all the countries, along with their lowest hierarchical region, and population. Region level data contains the 18 regions and their respective cumulative population.
 
 4. Getting Article Quality Predictions
 
