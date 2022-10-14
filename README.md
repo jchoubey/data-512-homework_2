@@ -15,7 +15,7 @@ It is then needed to perform an analysis of how the coverage of politicians on W
 
 1. politicians_by_country_sept2022.csv
     List of Wikipedia articles of politicians
-    The Wikipedia Category: Politicians by nationality (https://en.wikipedia.org/wiki/Category:Politicians_by_nationality) was crawled to generate a list of Wikipedia article pages about politicians from a wide range of countries.
+    The Wikipedia Category: [Politicians by nationality](https://en.wikipedia.org/wiki/Category:Politicians_by_nationality) was crawled to generate a list of Wikipedia article pages about politicians from a wide range of countries.
     
     | Columns | Description                                     |
     | ------- | ----------------------------------------------- |
@@ -73,27 +73,27 @@ data-512-homework_2
 
 ## Process of the Assignment
 
-The process of the assignment has been documented in a step-by-step format within the source code. Further details are explained below.
+The process of the assignment has been documented in a step-by-step format within the [source code](https://github.com/jchoubey/data-512-homework_2/tree/main/code). Further details are explained below.
 
-### 1. Data Acquisition
-We begin with loading the data from the two csv files in pandas dataframe. We will be working with pandas through out this project.
+1. Data Acquisition
+    We begin with loading the data from the two csv files in pandas dataframe. We will be working with pandas through out this project.
 
-### 2. Handling Data Inconsistencies
-The data is not devoid of fallacies. We deal with inconsistencies such as missing data and duplicate entries in both the dataframes.
+2. Handling Data Inconsistencies
+    The data is not devoid of fallacies. We deal with inconsistencies such as missing data and duplicate entries in both the dataframes.
 
-### 3. Basic Data Processing
+3. Basic Data Processing
     
 
-### 4. Getting Article Quality Predictions
+4. Getting Article Quality Predictions
 
 
-### 5. Preparing Master Dataset
+5. Preparing Master Dataset
 
 
-### 6. Analysis
+6. Analysis
 
 
-### 7. Results
+7. Results
 
 
 
